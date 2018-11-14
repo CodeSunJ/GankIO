@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/drawerlayout"
+    tools:context="com.sunj.gankio.ui.activity.HomeActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <include layout="@layout/widget_toolbar_title" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_0"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:id="@+id/container" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_1"
+            android:background="@color/gray"/>
+
+        <com.sunj.gankio.widget.navigation.NavigationBar
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_50"
+            android:id="@+id/navigation_bar" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="@dimen/width_240"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:orientation="vertical"
+        android:background="@color/white">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_150"
+            android:background="@color/colorPrimary"
+            android:gravity="center_vertical">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="@dimen/width_100"
+                android:layout_height="@dimen/height_100"
+                app:civ_border_color="@color/black"
+                app:civ_fill_color="@color/white"
+                app:civ_border_width="@dimen/width_2"
+                android:layout_marginStart="@dimen/margin_20"
+                android:id="@+id/iv_user"
+                android:layout_marginLeft="@dimen/margin_20" />
+
+        </LinearLayout>
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/lv_items" />
+    </LinearLayout>
+
+</android.support.v4.widget.DrawerLayout>

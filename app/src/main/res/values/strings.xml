@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">干货集中营</string>
+    <string name="search">搜索</string>
+    <string name="category">分类</string>
+    <string name="home_page">主页</string>
+    <string name="load_read_main_category_failure">加载闲读主分类失败！</string>
+    <string name="read">闲读</string>
+    <string name="setting">设置</string>
+    <string name="image">图片</string>
+    <string name="up_to_date">已经刷新到最新！</string>
+    <string name="refresh_success">刷新成功！</string>
+    <string name="refresh_failure">刷新失败！</string>
+    <string name="load_more_success">加载成功！</string>
+    <string name="load_more_failure">加载失败！</string>
+    <string name="input_first">请先输入搜索文本！</string>
+    <string name="search_success">搜索成功！</string>
+    <string name="search_failure">搜索失败！</string>
+</resources>

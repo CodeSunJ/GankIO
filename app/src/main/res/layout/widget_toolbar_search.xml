@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    android:background="?attr/colorPrimary"
+    android:id="@+id/toolbar"
+    android:focusable="false">
+
+    <com.sunj.gankio.widget.search.SearchText
+        android:id="@+id/et_search"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_32"
+        android:hint="@string/search"
+        android:textColorHint="@color/light_gray"
+        android:background="@drawable/bg_edit"/>
+
+</android.support.v7.widget.Toolbar>
